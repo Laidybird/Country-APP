@@ -5,9 +5,10 @@
     font-family: "Poppins", sans-serif;
    }
    body{
-       background-color: #3d64e6;
+       background: url("https://images.pexels.com/photos/41949/earth-earth-at-night-night-lights-41949.jpeg?auto=compress&cs=tinysrgb&w=1600");
    
    }
+   
    .container {
        background-color: #ffffff;
        width: 80vw;
