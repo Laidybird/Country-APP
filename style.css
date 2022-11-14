@@ -82,13 +82,17 @@
    h1 {
     color: aliceblue;
     text-align: center;
-    font-weight: 400;
+    font-weight: 600;
     margin-top: 120px;
    }
    p {
     color:  #bcc3db;
     text-align: center;
     padding: 25px;
+    font-weight: 400;
+   }
+   .info{
+    color:chartreuse;
    }
    @media screen and(max-width: 450){
     .container{
