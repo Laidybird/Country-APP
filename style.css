@@ -83,16 +83,58 @@
     color: aliceblue;
     text-align: center;
     font-weight: 600;
-    margin-top: 120px;
+    position: sticky;
+    top: 15px;
    }
    p {
     color:  #bcc3db;
     text-align: center;
     padding: 25px;
     font-weight: 400;
+    position: sticky;
    }
    .info{
     color:chartreuse;
    }
+   @media only screen and(max-width: 650px){
+    .container {
+        background-color: #ffffff;
+        width: 50vw;
+        max-width: 25.5em;
+        padding: 2em 1.5em;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 70%;
+        left: 50%;
+        border-radius: 0.42em;
+        box-shadow: 0 1.25em 1.8em rgba(8, 21, 65, 0.25);
+    }
+    .search-wrapper {
+        display: grid;
+        grid-template-columns: 6fr 1fr;
+        gap: 1em;
+    }
+    .search-wrapper button {
+        font-size: 1em;
+        background-color:  #3d64e6;
+        color: #ffffff;
+        padding: 0.8em 0;
+        border: none;
+        border-radius: 1.5em;
+    
+    }
+    .search-wrapper input {
+        font-size: 1em;
+        padding: 0 0.32em;
+        border: none;
+        border-bottom: 2px solid #3d64e6;
+        outline: none;
+        color: #222a43;
+    
+    }
+    .result{
+        margin-top: 0.6em;
+    }
    
+   }
    
