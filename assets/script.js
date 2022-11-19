@@ -23,7 +23,6 @@ searchBtn.addEventListener("click", () => {
         console.log(data[0].currencies[Object.keys(data[0].currencies)].name);
         console.log(Object.values(data[0].languages).toString().split(",").join(","));
         console.log(data[0].timezones[0])
-        console.log(Object.values(data[0].borders).toString().split(",").join(","));
         results.innerHTML = `
         <img src="${data[0].flags.svg}" class="flag-img">
         <h2>${data[0].name.common}</h2>
@@ -64,15 +63,6 @@ searchBtn.addEventListener("click", () => {
            <div class="data-wrapper">
               <h4>Timezone:</h4>
               <span>${data[0].timezones[0]}</span>
-            </div>
-        </div>
-        <div class="wrapper">
-           <div class="data-wrapper">
-              <h4>Borders:</h4>
-              <span>${Object.values(data[0].borders)
-                .toString()
-                .split(",")
-                .join(",")}</span>
             </div>
         </div>
         `;
