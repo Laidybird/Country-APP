@@ -1,5 +1,5 @@
 # Country-APP
-![View Live Site Here](https://laidybird.github.io/Cpuntry-APP/
+(https://laidybird.github.io/Cpuntry-APP/
 ##Developer:Veronica Preda
 ![validating on diferent screens](https://user-images.githubusercontent.com/66474546/202907612-d262cb25-863e-4f96-915a-ce64ae1f78ae.png)
 
