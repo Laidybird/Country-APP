@@ -7,5 +7,4 @@
 
 **Developer: Veronica Preda**
 
-*test
-*validat
+
