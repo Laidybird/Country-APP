@@ -126,4 +126,6 @@ Learning resources
 *Stackoverflow - I used this site alot to help with fixing and figuring out how to achieve certain things, for instance how to fix the timer ticking down I used this to help me figuring out what I did wrong.
 
 
+Hope to enjoy the APP
+
 
